@@ -1,0 +1,182 @@
+*{
+    margin: 45px 0 0 0 ;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.boxContainer{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activityBox{
+  width: 624px;
+  height: 335px;
+  margin: 0 42px 121px 50px;
+  padding: 6px 36px 20px 10px;
+  border-radius: 26px;
+  box-shadow: 0px 4px 28.8px 3.2px rgba(0, 0, 0, 0.13);
+  background-color: #ffffff;
+}
+
+.sale,.ammount{
+    width: 236px;
+    height: 158px;
+    margin: 0 26px 19px 42px;
+    padding: 28px 21px 28px 26px;
+    border-radius: 12px;
+    background-color: #f069af;
+   
+}
+
+.breaches, .pendingActions{
+    opacity: 0.9;
+    width: 236px;
+    height: 158px;
+    margin: 0 26px 19px 42px;
+    padding: 28px 21px 28px 26px;
+    border-radius: 12px;
+    box-shadow: 0 0 24.3px 2.7px rgba(0, 0, 0, 0.13);
+    background-color: #ffffff;
+}
+.databox{
+  width: 234px;
+  height: 110px;
+  margin: 1px 66px 0 0;
+  padding: 27px 42px 29px 26px;
+  border-radius: 18px;
+  border: solid 3px #fce5f1;
+  background-color: #ffffff;
+}
+.databoxtext{
+  width: 27px;
+  height: 17px;
+  margin: 10px 7px 11px 0px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #21185f;
+}
+.artistCard{
+  width: 395px;
+  height: 369px;
+  margin: 146px 18px 0 77px;
+  padding: 9px 0 76px 1px;
+  border-radius: 12px;
+  background-color: #e1d2d1;
+}
+
+.packageGuidelines {
+  width: 273px;
+  height: 369px;
+  margin: 146px 24px 0 25px;
+  padding: 0 0 60px;
+  border-radius: 12px;
+  background-color: #c5cfd9;
+}
+.events,.artStories,.careers,.submitArticle{
+  width: 201px;
+  height: 170px;
+  margin: 146px 18px 27px 24px;
+  padding: 79px 3px 78px 3px;
+  border-radius: 12px;
+  background-color: #fce5f1;
+}
+.careers,.submitArticle{
+    margin: 0px 18px 27px 24px;
+}
+@media only screen and (max-width: 600px) {
+    .boxContainer{
+      /* margin: 0px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .sideActivityBox{
+      /* margin-left: 29px;
+      margin-right: 29px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .activityBox {
+        width: 353px;
+        height: 359px;
+        margin: 0 29px 36px 32px;
+        padding: 43px 212px 308px 16px;
+        border-radius: 26px;
+        box-shadow: 0px 4px 21.6px 2.4px rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+      }
+      .sale,.ammount{
+        width: 353px;
+        height: 157px;
+        margin: 36px 29px 36px 32px;
+        padding: 28px 27px 27px 26px;
+      
+      }
+      .breaches, .pendingActions{
+        width: 340px;
+        height: 157px;
+        margin: 36px 29px 36px 45px;
+        padding: 25px 27px 36px 29px;
+        opacity: 0.9;
+        border-radius: 12px;
+        box-shadow: 0px 4px 28.8px 3.2px rgba(0, 0, 0, 0.13);
+      }
+      .databoxlayout{
+        display: flex;
+      }
+      .databox{
+        width: 336px;
+        height: 110px;
+        margin: 0 0 52px 2px;
+        padding: 31px 75px 25px 76px;
+        border-radius: 18px;
+      }
+      .guidebox{
+        margin-top: 30em;
+      }
+      .artistCardimage{
+        width: 337px;
+        height: 159px;
+        margin: 0 0 36px;
+      }
+      .artistCard{ width: 338px;
+        height: 256px;
+        margin: 51px 37px 37px 39px;
+        padding: 7px 0 40px 1px;
+        border-radius: 12px;}
+     
+        .packageGuidelines{
+        width: 337px;
+        height: 286px;
+        margin: 37px 37px 37px 40px;
+        padding: 0 0 32px;
+        }
+        .packageGuidelines > img{
+          width: 337px;
+          height: 250px;
+          margin: 0 0 4px;
+
+        }
+        .events,.artStories,.careers,.submitArticle{
+          width: 338px;
+          height: 138px;
+          margin: 37px 38px 38px;
+          padding: 60px 139px 65px 145px;
+        }
+        .databoxlayout{
+          width: 414px;
+          height: 714px;
+          margin: 70px 0 85px;
+          padding: 55px 38px 63px;
+        }
+       
+  }
+  
